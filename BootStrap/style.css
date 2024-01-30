@@ -1,0 +1,132 @@
+.section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.section-2.span-1{
+    margin: 100px;
+}
+.section-3{
+    width: 1260px;
+    height: 800px;
+    background-color: #35a7ff;
+    margin-top: -750px;
+    position: relative;
+    z-index: -1;
+}
+.section-3 .p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 100px; */
+    color: white;
+}
+.section-video video{
+    height: 439px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 300px;
+    margin-top: 30px;
+    z-index: 1;
+    position: relative;
+}
+.section-video .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+button.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tex-center{
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: -16px;
+}
+
+
+.flex{
+    margin-left: 570px;
+    margin-top: -134px;
+    font-size: 20px;
+}
+.flex-1{
+    margin-left: 570px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.align{
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.align-1{
+    margin-top: 100px;
+    font-size: 20px;
+}
+.section-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+@media(max-width:552px){
+    body{
+        width: 100%;
+    }
+    .section-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .section-2.span-1{
+        margin: 100px;
+    }
+    .section-3{
+        width: 100x;
+        height: 500px;
+        background-color: #35a7ff;
+        margin-top: -750px;
+        position: relative;
+        z-index: -1;
+    }
+    .section-3 .p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 100px; */
+        color: white;
+    }
+    /* .section-video video{
+        height: 500px;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        /* margin-left: 0px; */
+        /* margin-top: 30px;
+        z-index: 1;
+        position: relative;
+        margin-right: 50px;
+    } */
+    /* .section-video{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    } */
+}
